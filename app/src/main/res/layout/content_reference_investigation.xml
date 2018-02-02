@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:scrollbars="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.androidprojects.sunilsharma.motorinvestigation.ReferenceInvestigationActivity"
+    tools:showIn="@layout/activity_reference_investigation">
+
+
+    <LinearLayout
+        android:id="@+id/formLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/stateSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:hintText="State"/>
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/citySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:hintText="City"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtClaimNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Claim Number"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPolicyNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Policy Number"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtInsuredName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insured Name"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtVehicleNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle Number"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDateOfLoss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Of Loss"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="datetime"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDateOfIntimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Of Intimation"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="datetime"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtLossLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loss Location"
+            android:text=""
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtLossValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loss Value"
+            android:text=""
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtRemark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Remark"
+            android:text=""
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-thin"
+            android:layout_margin="20dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="60dp"
+            android:paddingLeft="60dp"
+            android:paddingTop="8dp"
+            android:text="@string/insert_details"
+            android:textColor="@color/btn_save_color"
+            android:textAllCaps="true"
+            android:textSize="24sp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

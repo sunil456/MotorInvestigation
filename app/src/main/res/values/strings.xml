@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MotorInvestigation</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="motor_investigation">MOTOR INVESTIGATION</string>
+    <string name="looking_surveyors">LOOKING FOR SURVEYOR APP</string>
+
+    <string name="sign_in">SIGN IN</string>
+    <string name="title_activity_reference_investigation">ReferenceInvestigationActivity</string>
+    <string name="insert_details">SAVE</string>
+</resources>
